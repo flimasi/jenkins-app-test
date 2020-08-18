@@ -6,5 +6,7 @@
             "email": "felipelimaesilva@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "phpstan/phpstan": "^0.12.37"
+    }
 }
