@@ -29,7 +29,26 @@ jobs:
     - name: Install dependencies
       if: steps.composer-cache.outputs.cache-hit != 'true'
       run: composer install --prefer-dist --no-progress --no-suggest
-
+      
+# Runs a single command using the runners shell
+    - name: phpstan (PHP Static Analysis)
+      uses: actions-x/phpstan@v1
+      with:
+        # Whether to install composer packages, set to '0' to disable (e.g. if you installed them manually).
+        installComposer: 1
+        # Set the phpstan version, omit to use the latest
+        phpstanVersion: ""
+        # The phpstan level
+        level: default
+        # The directories separated by space that phpstan will check. Not required since you can defined them in phpstan config
+        paths: ""
+        # The path to the config file, if not specified phpstan defaults are used
+        configPath: ""
+        # If set to true, the local project phpstan is used instead of downloading it manually
+        useBundled: 0
+        # Any additional arguments you want to pass to the phpstan tool
+        arguments: ""
+        
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
 
