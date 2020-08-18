@@ -1,0 +1,13 @@
+{
+    "name": "felipe/jenkins-app-test",
+    "description":"Jenkins App Test",
+    "authors": [
+        {
+            "name": "Felipe",
+            "email": "felipelimaesilva@gmail.com"
+        }
+    ],
+    "require": {
+        "phpstan/phpstan": "^0.12.37"
+    }
+}
