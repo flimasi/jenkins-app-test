@@ -1,5 +1,6 @@
 {
     "name": "felipe/jenkins-app-test",
+    "description":"Jenkins App Test",
     "authors": [
         {
             "name": "Felipe",
