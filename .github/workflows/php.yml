@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: PhpUnit
-        run: ./.github/scripts/phpunit.sh
+        run: vendor/bin/phpunit
   phpstan:
     name: phpstan
     runs-on: ubuntu-latest
