@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62125b98-58ec-407c-bcd4-ab1d6d2061da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/scripts/phpunit.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/php.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/php.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/EmailTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/EmailTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597774415735</updated>
       <workItem from="1597774417205" duration="735000" />
-      <workItem from="1597792487100" duration="4426000" />
+      <workItem from="1597792487100" duration="7088000" />
     </task>
     <task id="LOCAL-00001" summary="ttt">
       <created>1597774551675</created>
@@ -141,7 +142,35 @@
       <option name="project" value="LOCAL" />
       <updated>1597796065286</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ttt">
+      <created>1597798830512</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597798830512</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ttt">
+      <created>1597799063734</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597799063734</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ttt">
+      <created>1597801320934</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597801320934</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ttt">
+      <created>1597801409191</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597801409191</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,10 +185,10 @@
       <screen x="41" y="27" width="1325" height="741" />
     </state>
     <state x="405" y="198" width="587" height="396" key="#com.intellij.fileTypes.FileTypeChooser/41.27.1325.741/1366.0.1366.768@41.27.1325.741" timestamp="1597793799282" />
-    <state x="242" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1597796065181">
+    <state x="242" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1597801409061">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state x="242" y="27" width="912" height="741" key="CommitChangelistDialog2/41.27.1325.741/1366.0.1366.768@41.27.1325.741" timestamp="1597796065181" />
+    <state x="242" y="27" width="912" height="741" key="CommitChangelistDialog2/41.27.1325.741/1366.0.1366.768@41.27.1325.741" timestamp="1597801409061" />
     <state x="334" y="159" width="728" height="475" key="MultipleFileMergeDialog" timestamp="1597792957101">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
@@ -172,9 +201,9 @@
       <screen x="41" y="27" width="1325" height="741" />
     </state>
     <state x="499" y="322" width="399" height="149" key="NewPhpFileDialog/41.27.1325.741/1366.0.1366.768@41.27.1325.741" timestamp="1597794496778" />
-    <state x="298" y="118" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1597796067973">
+    <state x="298" y="118" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1597801410978">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state x="298" y="118" width="800" height="556" key="Vcs.Push.Dialog.v2/41.27.1325.741/1366.0.1366.768@41.27.1325.741" timestamp="1597796067973" />
+    <state x="298" y="118" width="800" height="556" key="Vcs.Push.Dialog.v2/41.27.1325.741/1366.0.1366.768@41.27.1325.741" timestamp="1597801410978" />
   </component>
 </project>
