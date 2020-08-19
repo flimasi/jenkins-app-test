@@ -46,7 +46,7 @@ jobs:
       - name: Checkout project
         uses: actions/checkout@v2
       - name: Run phpstan
-        uses: actions-x/phpstan@v1
+        uses: actions-x/phpstan@master
         with:
           installComposer: 0
           phpstanVersion: 0.12.37
