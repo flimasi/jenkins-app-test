@@ -63,7 +63,7 @@ jobs:
         uses: pipeline-components/php-codesniffer@v0.12.3
         with:
           # Directory to check
-          directory: src/
+          # directory:
           # Additional options
-          options: --extensions=php --standard=PSR4
+          options: --extensions=php --standard=PSR4 --ignore=/tests,/public,/vendor /
       
