@@ -31,8 +31,6 @@ jobs:
       run: composer install --prefer-dist --no-progress --no-suggest
   unit-test:
     runs-on: ubuntu-latest
-    run: vendor/bin/phpunit
-
     steps:
     - uses: actions/checkout@v2
     - uses: php-actions/composer@v1 # or alternative dependency management
