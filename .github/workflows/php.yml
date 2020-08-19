@@ -38,8 +38,7 @@ jobs:
     - uses: php-actions/phpunit@v9
       with:
           # If there isn't a PHPUnit config, specify files or directories to test
-         path: vendor
-         command: tests/
+         command: ./vendor/bin/phpunit tests
     # ... then your own project steps ...
   phpstan:
     name: phpstan
@@ -50,11 +49,10 @@ jobs:
       - name: Run phpstan
         uses: actions-x/phpstan@v1
         with:
-          path: vendor
           installComposer: 0
           phpstanVersion: 0.12.37
           level: 5
           paths: src tests
-          configPath: custom-phpstan-config.neon
-          useBundled: 1
-          arguments: --autoload-file my-custom-autoload.php
+          configPath: ""
+          useBundled: 0
+          arguments: ""
