@@ -32,13 +32,8 @@ jobs:
   unit-test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: php-actions/composer@v1 # or alternative dependency management
-    - uses: php-actions/phpunit@v9
-      with:
-          # If there isn't a PHPUnit config, specify files or directories to test
-         command: tests/
-    # ... then your own project steps ...
+      - name: PhpUnit
+        run: ./.github/scripts/phpunit.sh
   phpstan:
     name: phpstan
     runs-on: ubuntu-latest
