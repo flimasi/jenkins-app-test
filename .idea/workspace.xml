@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62125b98-58ec-407c-bcd4-ab1d6d2061da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/teste3.php" beforeDir="false" afterPath="$PROJECT_DIR$/teste3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Email.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Email.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teste.php" beforeDir="false" afterPath="$PROJECT_DIR$/teste.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +25,34 @@
     <include_path>
       <path value="$PROJECT_DIR$/vendor/phpstan/phpstan" />
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gHbMIu5WMN8v6HtjILDNqfGCxm" />
@@ -42,6 +75,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597774415735</updated>
       <workItem from="1597774417205" duration="735000" />
-      <workItem from="1597792487100" duration="826000" />
+      <workItem from="1597792487100" duration="2669000" />
     </task>
     <task id="LOCAL-00001" summary="ttt">
       <created>1597774551675</created>
@@ -74,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597793009233</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ttt">
+      <created>1597793323515</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597793323515</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ttt">
+      <created>1597793551216</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597793551216</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,17 +137,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="ttt" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="242" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1597793008991">
+    <state x="405" y="198" width="587" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597793799282">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state x="242" y="27" width="912" height="741" key="CommitChangelistDialog2/41.27.1325.741/1366.0.1366.768@41.27.1325.741" timestamp="1597793008991" />
+    <state x="405" y="198" width="587" height="396" key="#com.intellij.fileTypes.FileTypeChooser/41.27.1325.741/1366.0.1366.768@41.27.1325.741" timestamp="1597793799282" />
+    <state x="242" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1597793551064">
+      <screen x="41" y="27" width="1325" height="741" />
+    </state>
+    <state x="242" y="27" width="912" height="741" key="CommitChangelistDialog2/41.27.1325.741/1366.0.1366.768@41.27.1325.741" timestamp="1597793551064" />
     <state x="334" y="159" width="728" height="475" key="MultipleFileMergeDialog" timestamp="1597792957101">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
     <state x="334" y="159" width="728" height="475" key="MultipleFileMergeDialog/41.27.1325.741/1366.0.1366.768@41.27.1325.741" timestamp="1597792957101" />
-    <state x="298" y="118" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1597793019923">
+    <state x="462" y="116" width="473" height="561" key="NewPhpClassDialog" timestamp="1597794526125">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state x="298" y="118" width="800" height="556" key="Vcs.Push.Dialog.v2/41.27.1325.741/1366.0.1366.768@41.27.1325.741" timestamp="1597793019923" />
+    <state x="462" y="116" width="473" height="561" key="NewPhpClassDialog/41.27.1325.741/1366.0.1366.768@41.27.1325.741" timestamp="1597794526125" />
+    <state x="499" y="322" width="399" height="149" key="NewPhpFileDialog" timestamp="1597794496778">
+      <screen x="41" y="27" width="1325" height="741" />
+    </state>
+    <state x="499" y="322" width="399" height="149" key="NewPhpFileDialog/41.27.1325.741/1366.0.1366.768@41.27.1325.741" timestamp="1597794496778" />
+    <state x="298" y="118" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1597793553098">
+      <screen x="41" y="27" width="1325" height="741" />
+    </state>
+    <state x="298" y="118" width="800" height="556" key="Vcs.Push.Dialog.v2/41.27.1325.741/1366.0.1366.768@41.27.1325.741" timestamp="1597793553098" />
   </component>
 </project>

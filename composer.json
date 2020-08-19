@@ -8,6 +8,7 @@
         }
     ],
     "require": {
-        "phpstan/phpstan": "^0.12.37"
+        "phpstan/phpstan": "^0.12.37",
+        "phpunit/phpunit": "^7"
     }
 }
