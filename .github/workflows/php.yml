@@ -52,7 +52,7 @@ jobs:
           installComposer: 0
           phpstanVersion: 0.12.37
           level: 5
-          paths: src tests
+          paths: src
           configPath: ""
           useBundled: 0
           arguments: ""
