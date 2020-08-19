@@ -65,5 +65,5 @@ jobs:
           # Directory to check
           # directory:
           # Additional options
-          options: --extensions=php --standard=PSR4 --ignore=/tests,/public,/vendor /
+          options: --extensions=php --standard=PSR1 --ignore=/tests,/public,/vendor /
       
