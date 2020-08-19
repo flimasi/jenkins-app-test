@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62125b98-58ec-407c-bcd4-ab1d6d2061da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/scripts/phpunit.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/php.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/php.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,7 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gHbMIu5WMN8v6HtjILDNqfGCxm" />
@@ -98,7 +100,8 @@
       <option name="presentableId" value="Default" />
       <updated>1597774415735</updated>
       <workItem from="1597774417205" duration="735000" />
-      <workItem from="1597792487100" duration="7088000" />
+      <workItem from="1597792487100" duration="8330000" />
+      <workItem from="1597803292774" duration="649000" />
     </task>
     <task id="LOCAL-00001" summary="ttt">
       <created>1597774551675</created>
@@ -170,7 +173,42 @@
       <option name="project" value="LOCAL" />
       <updated>1597801409191</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ttt">
+      <created>1597801831928</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1597801831928</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ttt">
+      <created>1597802199837</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1597802199837</updated>
+    </task>
+    <task id="LOCAL-00013" summary="ttt">
+      <created>1597802403462</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1597802403462</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ttt">
+      <created>1597802665226</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1597802665226</updated>
+    </task>
+    <task id="LOCAL-00015" summary="ttt">
+      <created>1597802957648</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1597802957648</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,10 +223,10 @@
       <screen x="41" y="27" width="1325" height="741" />
     </state>
     <state x="405" y="198" width="587" height="396" key="#com.intellij.fileTypes.FileTypeChooser/41.27.1325.741/1366.0.1366.768@41.27.1325.741" timestamp="1597793799282" />
-    <state x="242" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1597801409061">
+    <state x="242" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1597802957559">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state x="242" y="27" width="912" height="741" key="CommitChangelistDialog2/41.27.1325.741/1366.0.1366.768@41.27.1325.741" timestamp="1597801409061" />
+    <state x="242" y="27" width="912" height="741" key="CommitChangelistDialog2/41.27.1325.741/1366.0.1366.768@41.27.1325.741" timestamp="1597802957559" />
     <state x="334" y="159" width="728" height="475" key="MultipleFileMergeDialog" timestamp="1597792957101">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
@@ -201,9 +239,9 @@
       <screen x="41" y="27" width="1325" height="741" />
     </state>
     <state x="499" y="322" width="399" height="149" key="NewPhpFileDialog/41.27.1325.741/1366.0.1366.768@41.27.1325.741" timestamp="1597794496778" />
-    <state x="298" y="118" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1597801410978">
+    <state x="298" y="118" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1597802960140">
       <screen x="41" y="27" width="1325" height="741" />
     </state>
-    <state x="298" y="118" width="800" height="556" key="Vcs.Push.Dialog.v2/41.27.1325.741/1366.0.1366.768@41.27.1325.741" timestamp="1597801410978" />
+    <state x="298" y="118" width="800" height="556" key="Vcs.Push.Dialog.v2/41.27.1325.741/1366.0.1366.768@41.27.1325.741" timestamp="1597802960140" />
   </component>
 </project>
