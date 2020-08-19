@@ -55,3 +55,15 @@ jobs:
           configPath: ""
           useBundled: 0
           arguments: ""
+  phpcs:
+    name: phpcs
+    runs-on: ubuntu-latest
+    steps:
+      - name: php-codesniffer
+        uses: pipeline-components/php-codesniffer@v0.12.3
+        with:
+          # Directory to check
+          directory: src
+          # Additional options
+          options: --extensions=php
+      
