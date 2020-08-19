@@ -64,7 +64,6 @@ jobs:
         with:
           # Directory to check
           directory: ./src
-          standard: PSR2
           # Additional options
-          options: --extensions=php
+          options: --extensions=php --standard=PSR4
       
