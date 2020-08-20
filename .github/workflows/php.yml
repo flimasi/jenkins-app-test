@@ -74,8 +74,8 @@ jobs:
       - name: Run PHPCS inspection
         uses: rtCamp/action-phpcs-code-review@v2.0.3
         env:
-          GH_BOT_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
+          GH_BOT_TOKEN: 28608adf7d2fed1159ae6e00dd220a0e3562c577
           SKIP_FOLDERS: "tests,.github"
           PHPCS_SNIFFS_EXCLUDE: "WordPress.Files.FileName"
         with:
-          args: "WordPress,WordPress-Core,WordPress-Docs"
+          args: "PSR2"
