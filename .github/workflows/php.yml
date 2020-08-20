@@ -7,6 +7,19 @@ on:
     branches: [ master ]
 
 jobs:
+  commits_check_job:
+    runs-on: ubuntu-latest
+    name: Commits Check
+    steps:
+      - name: Get PR Commits
+        id: 'get-pr-commits'
+        uses: tim-actions/get-pr-commits@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit Body Check
+        uses: tim-actions/commit-body-check@master
+        with:
+          commits: ${{ steps.get-pr-commits.outputs.commits }
   build:
 
     runs-on: ubuntu-latest
@@ -55,6 +68,3 @@ jobs:
           configPath: ""
           useBundled: 0
           arguments: ""
-  codeclimate:
-    - name: Velocity deploy action
-      uses: codeclimate/velocity-deploy-action@v1.0.0
