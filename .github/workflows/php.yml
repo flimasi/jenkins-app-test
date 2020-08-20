@@ -61,9 +61,9 @@ jobs:
     steps:
       - name: php-codesniffer
         uses: pipeline-components/php-codesniffer@v0.12.3
-        with:
+        with: /
           # Directory to check
-          # directory:
+          directory:
           # Additional options
-          options: --extensions=php --standard=PSR1 --ignore=/tests,/public,/vendor /
+          options: --extensions=php --standard=PSR1 --ignore=/tests,/public,/vendor
       
