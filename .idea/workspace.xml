@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62125b98-58ec-407c-bcd4-ab1d6d2061da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Email.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Email.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teste.php" beforeDir="false" afterPath="$PROJECT_DIR$/teste.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/EmailTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/EmailTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +108,7 @@
       <workItem from="1597774417205" duration="735000" />
       <workItem from="1597792487100" duration="8330000" />
       <workItem from="1597803292774" duration="6669000" />
-      <workItem from="1598032024017" duration="5040000" />
+      <workItem from="1598032024017" duration="5977000" />
     </task>
     <task id="LOCAL-00001" summary="ttt">
       <created>1597774551675</created>
