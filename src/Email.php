@@ -1,4 +1,7 @@
 <?php
+
+namespace Email;
+
 final class Email
 {
     private $email;
