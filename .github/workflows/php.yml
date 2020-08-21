@@ -69,3 +69,10 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: michaelw90/PHP-Lint@master
+  phpcs:
+    name: PHPCS
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: PHPCS check
+        uses: chekalsky/phpcs-action@v1
