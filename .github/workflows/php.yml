@@ -69,9 +69,3 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: michaelw90/PHP-Lint@master
-  phpSecurityChecker:
-    runs-on: ubuntu-latest
-          - name: PHP Security Checker
-            uses: StephaneBour/actions-php-security-checker@1.0
-            with:
-              composer-lock: './composer-lock'
